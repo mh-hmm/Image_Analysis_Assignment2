@@ -1,32 +1,4 @@
 # Image Registration App
-This is a short app with which it is possible to detect features of two images and transform image 1 to aligne with image 2.
-For the feature detection is currantly ORB and SIFT implemented and for the transformation Homography and Affine.
-
-
-## Local execution of the Code
-Move into the project folder in the terminal and execute {streamlit run app.py}, afterwards the application should open in the web-browser.
-Before the first time execution make sure all dependencies are installed, for this run "python -m pip install -r requirements.txt"
-
-## URL for Hugging Face
-
-## Screenshot
-When properly running (locally) the browser should look like this:
-
-
-
-
-## Known Limitations
-
-
-## install dependencies 
-python -m pip install -r requirements.txt
-
-## run program
-streamlit run app.py
-
-
-
-# Image Registration App
 
 A Streamlit application for image registration using feature detection, feature matching, and geometric transformations.
 
@@ -86,8 +58,8 @@ Current metrics include:
 Clone the repository:
 
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone git@github.com:mh-hmm/Image_Analysis_Assignment2.git
+cd Image_Analysis_Assignment2
 ```
 
 Install dependencies:
@@ -152,7 +124,7 @@ When running correctly, the application should appear similar to:
 Application URL:
 
 ```text
-Add Hugging Face URL here
+https://huggingface.co/spaces/aahh-ha/Image_Registration
 ```
 
 ---
@@ -167,31 +139,3 @@ Add Hugging Face URL here
 - Affine transformations cannot model perspective distortion.
 - Homography assumes a planar relationship between images.
 - Incorrect feature matches can lead to poor alignment results.
-
----
-
-## Future Improvements
-
-Potential future additions:
-
-- AKAZE and SURF feature detectors
-- Additional matching methods (FLANN)
-- SSIM and PSNR metrics
-- Interactive parameter tuning
-- Automatic image preprocessing
-- GPU acceleration
-
----
-
-## Technologies Used
-
-- Python
-- Streamlit
-- OpenCV
-- NumPy
-
----
-
-## Author
-
-Created as an image registration and computer vision project using feature-based matching techniques.
