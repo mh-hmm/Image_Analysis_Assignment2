@@ -1,0 +1,7 @@
+
+
+# packages
+streamlit
+opencv-python-headless
+numpy
+Pillow
